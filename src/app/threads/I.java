@@ -6,9 +6,8 @@ public class I extends Thread {
     public void run() {
         for(int i = 0; i < App.textoChars.size(); i++) {
             if(App.textoChars.get(i) == 'i') {
-                App.iCounter++;
+                App.vocalesTotal++;
             }
         }
-        System.out.println("todas las i han sido contadas: " + App.iCounter);
     }
 }
